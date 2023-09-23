@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <!-- fonts ends -->
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+  <div class="container" id="container">
+    <div>
+        <img src="images/icon-star.svg" alt="">
+    </div>
+      
+    <h2>How did we do?</h2> 
+    <p>
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+    </p> 
+    <div class="rate-me">
+      <button class="rate">1</button>
+      <button class="rate">2</button>
+      <button class="rate">3</button>
+      <button class="rate">4</button>
+      <button class="rate">5</button>
+    </div>
+   
+    <button id="btn">Submit</button>
+    
+  </div>
+
+  <div id="Thank-you" class="Thank-you">
+
+    <img src="images/illustration-thank-you.svg" alt="">
+
+      <p class="select">You selected <span id="ratNum" class="ratNum">5</span> out of 5</p>
+      <h2>Thank you!</h2>
+   
+      <p class="appreciate">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don't hesitate to get in touch! 
+      </p>
+ 
+
+  </div>
+
+  
+  
+  <script src="index.js"></script>
+</body>
+</html>
